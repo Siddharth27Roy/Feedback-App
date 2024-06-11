@@ -65,7 +65,7 @@
       --ring: 212.7 26.8% 83.9%;
     }
   }
-
+/* 
   @layer base {
     * {
       @apply border-border;
@@ -73,4 +73,11 @@
     body {
       @apply bg-background text-foreground;
     }
+  } */
+
+  /* to remove arrows in number input field */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
   }
